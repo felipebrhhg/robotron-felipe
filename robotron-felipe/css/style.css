@@ -50,12 +50,13 @@ main {
     font-weight: 500;
     font-size: 130px;
     position: absolute;
+    margin-left: -1.2em;
     bottom: 7rem;
     left: -3rem;
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(255,255,255,0.8)
+    color: rgb(0, 0, 0)
 }
 
 .box {
