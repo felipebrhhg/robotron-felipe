@@ -36,8 +36,8 @@ const pecas = {
 }
 
 controle.forEach( (elemento) => {
-    elemento.addEventListener("click", (evento) => {
-        manipulaDados(evento.target.dataset.controle,evento.target.parentNode)
+    elemento.addEventListener('click', (evento) => {
+        manipulaDados(evento.target.dataset.controle, evento.target.parentNode)
         atualizaEstatisticas(evento.target.dataset.peca)
     })
 })
